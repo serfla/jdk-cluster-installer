@@ -29,17 +29,17 @@ $ scp -r JDK_FOLDER host@server:.
 ## How to use
 
 #### Install JDK on master node
-On master node run
+On master node runs
 ```sh
 $ sudo ./set-jdk-as-default.sh JDK_FOLDER
 ```
 
 
 #### Install JDK on slave nodes
-From master node easly run as root
+From master node easly runs
 
 ```sh
-$ sudo ./jdk-cluster-installer.sh -j JDK_FOLDER -h "slave1 slave2 ...."
+$ ./jdk-cluster-installer.sh -j JDK_FOLDER -h "slave1 slave2 ...."
 ```
 Arguments:
 - **j**    
